@@ -593,6 +593,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Basmati Rice</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -602,6 +603,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Beans">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Beans</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -610,6 +612,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Beef">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Meat"/>
+        <rdfs:label>Beef</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -625,6 +628,7 @@
         <hasTechnique>Baked</hasTechnique>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Biryani</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -635,6 +639,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Balck Cardomom</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -645,6 +650,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Brinjal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -660,6 +666,7 @@
         <hasFlavor>Sour</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breakfast</isServedAt>
+        <rdfs:label>Buttermilk</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -669,6 +676,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cabbage">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Cabbage</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -677,6 +685,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cake">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dessert"/>
+        <rdfs:label>Cake</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -686,6 +695,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Capsicum">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Capsicum</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -698,6 +708,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Tea"/>
         <hasFlavor>Sweet</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Cardomom</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -710,6 +721,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <hasFlavor>Sweet</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Carrot</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -727,6 +739,7 @@
         <hasTechnique>Deep Fried</hasTechnique>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breaktime Snacks</isServedAt>
+        <rdfs:label>Cashew Momo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -738,6 +751,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Gravy"/>
         <hasFlavor>Sour</hasFlavor>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Catfish</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -748,6 +762,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Caulifower_Fry"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Cauliflower</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -761,6 +776,7 @@
         <hasTechnique>Deep Fried</hasTechnique>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
+        <rdfs:label>Cauliflower Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -776,6 +792,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Dinner</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Chapathi</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -790,6 +807,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Chicken_Soup"/>
         <hasAtOccasion>Everyday</hasAtOccasion>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Chicken</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -805,6 +823,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Chicken Biryani</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -821,6 +840,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Chicken Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -838,6 +858,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Dinner</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Chicken Gravy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -851,6 +872,7 @@
         <hasTechnique>Boiled</hasTechnique>
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
+        <rdfs:label>Chicken Soup</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -862,6 +884,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <hasFlavor>Sweet</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Cinnamon Sticks</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -872,6 +895,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <goesWith rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Rasam"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Cluster Beans</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -881,6 +905,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Coconut">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Coconut</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -890,6 +915,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Coriander_Leaves">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Herbs"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Coriander Leaves</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -902,6 +928,7 @@
         <hasFlavor>Savory</hasFlavor>
         <hasNoOfIngredients rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasNoOfIngredients>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Coriander Masala</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -912,6 +939,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Shell_Fish"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Crab_Masala"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Crab</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -931,6 +959,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Crab Masala</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -940,6 +969,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Curry_Leaves">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Herbs"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Curry Leaves</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -949,6 +979,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Curry_Masala">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Masala"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Curry Masala</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -968,6 +999,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breakfast</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Dosa</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -978,6 +1010,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Dried Bay Leaf</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -987,6 +1020,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dried_Grape">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Dried Grape</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -996,6 +1030,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dried_Red_chilli">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Dried Red Chilli</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1006,6 +1041,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Drum Stick</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1016,6 +1052,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <goesWith rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Elephant Yam</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1027,6 +1064,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Crab_Masala"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetable_Korma"/>
         <hasFlavor>Sweet</hasFlavor>
+        <rdfs:label>Fennel</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1039,6 +1077,7 @@
         <hasAtOccasion>Everyday</hasAtOccasion>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breakfast</isServedAt>
+        <rdfs:label>Filter Coffee</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1054,6 +1093,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Fish Biryani</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1071,6 +1111,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Fish Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1089,6 +1130,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Fish Gravy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1098,6 +1140,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Garam_Masala">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Masala"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Garam Masala</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1107,6 +1150,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ghee">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Ghee</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1116,6 +1160,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Gingely_Oil">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Gingely Oil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1125,6 +1170,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Goat">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Meat"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Goat</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1138,6 +1184,7 @@
         <hasTechnique>Stewed</hasTechnique>
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
+        <rdfs:label>Goat Leg Soup</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1148,6 +1195,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sea_Fish"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Fry"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Golden Pomfret</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1157,6 +1205,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Green_Chilli">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Green Chilli</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1166,6 +1215,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Gulab_Jamun">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dessert"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Halwa"/>
+        <rdfs:label>Gulab Jamun</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1179,6 +1229,7 @@
         <hasFlavor>Sweet</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breaktime Snacks</isServedAt>
+        <rdfs:label>Halwa</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1187,6 +1238,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ice_Cream">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dessert"/>
+        <rdfs:label>Ice Cream</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1203,6 +1255,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breakfast</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Idli</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1213,6 +1266,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Idli"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Idli Rice</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1223,6 +1277,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Javitri</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1232,6 +1287,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Jeera">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Jeera</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1243,6 +1299,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Biryani"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Fry"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>King Fish</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1251,6 +1308,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Lamb">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Meat"/>
+        <rdfs:label>Lamb</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1259,6 +1317,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Lobster">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Shell_Fish"/>
+        <rdfs:label>Lobster</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1270,6 +1329,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Gravy"/>
         <hasFlavor>Sour</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Mango</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1279,6 +1339,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Mint_Leaves">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Herbs"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Mint Leaves</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1289,6 +1350,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Pongal"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Moong Dal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1298,6 +1360,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Mustard">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Mustard</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1313,6 +1376,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Mutton Biryani</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1333,6 +1397,7 @@
         <isServedAt>Dinner</isServedAt>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Mutton Gravy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1342,6 +1407,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Onion">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Onion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1351,6 +1417,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Palm_Oil">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Palm Oil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1367,6 +1434,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Dinner</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Parotta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1377,6 +1445,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Pearl Onion</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1387,6 +1456,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Rasam"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Pepper</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1405,6 +1475,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Plain Rice</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1415,6 +1486,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Plantain_Fry"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Plantain</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1430,6 +1502,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Plantain Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1446,6 +1519,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breakfast</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Pongal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1456,6 +1530,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Pongal"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Ponni Rice</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1466,6 +1541,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Potato_Fry"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Potato</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1482,6 +1558,7 @@
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
         <rdfs:comment>Fried Potato</rdfs:comment>
+        <rdfs:label>Potato Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1497,6 +1574,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Pulao</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1512,6 +1590,7 @@
         <hasFlavor>Sour</hasFlavor>
         <isOfDiet>Vegeterian</isOfDiet>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Rasam</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1530,6 +1609,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Main Course</isUsedAs>
+        <rdfs:label>Rice</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1539,6 +1619,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Rice_Bran_Oil">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Rice Bran Oil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1551,6 +1632,7 @@
         <goesWith rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <mustContain rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Rice"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Rice Pappad</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1569,6 +1651,7 @@
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
         <rdfs:comment>Lentil Stew made with vegetables simmered over Tamarind Water</rdfs:comment>
+        <rdfs:label>Sambar</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1577,6 +1660,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Carrot">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Side_Dish"/>
+        <rdfs:label>Sauteed Carrot</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1585,6 +1669,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Drum_Stick">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Side_Dish"/>
+        <rdfs:label>Sauteed Drum Stick</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1593,6 +1678,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Shrimp">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Side_Dish"/>
+        <rdfs:label>Sauteed Shrimp</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1604,6 +1690,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Shrimp_Fry"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Shrimp_Gravy"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Shrimp</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1620,6 +1707,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Shrimp Fry</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1636,6 +1724,7 @@
         <isOfDiet>Non-Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Shrimp Gravy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1646,6 +1735,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Star Anise</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1654,6 +1744,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Steamed_Fish">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Steamed_Side_Dish"/>
+        <rdfs:label>Steamed Fish</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1668,6 +1759,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Steamed Vegetables</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1677,6 +1769,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sunflower_Oil">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Sunflower Oil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1691,6 +1784,7 @@
         <hasTechnique>Boiled</hasTechnique>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breaktime Snacks</isServedAt>
+        <rdfs:label>Tea</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1702,6 +1796,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Biryani"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish_Fry"/>
         <isOfDiet>Non-Vegeterian</isOfDiet>
+        <rdfs:label>Tilapia</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1711,6 +1806,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Tomato">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Tomato</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1721,6 +1817,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sambar"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Toor Dal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1730,6 +1827,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Turmeric_Powder">
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Masala"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Turmeric Powder</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1741,6 +1839,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dosa"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Idli"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Urad Dal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1754,6 +1853,7 @@
         <hasTechnique>Deep Fried</hasTechnique>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Breaktime Snacks</isServedAt>
+        <rdfs:label>Vadai</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1771,6 +1871,7 @@
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Dinner</isServedAt>
         <isUsedAs>Side Dish</isUsedAs>
+        <rdfs:label>Vegetable Korma</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1782,6 +1883,7 @@
         <hasTechnique>Stewed</hasTechnique>
         <isOfDiet>Vegeterian</isOfDiet>
         <isServedAt>Lunch</isServedAt>
+        <rdfs:label>Vegetable Soup</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1792,6 +1894,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Chapathi"/>
         <isOfDiet>Vegeterian</isOfDiet>
+        <rdfs:label>Wheat</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
