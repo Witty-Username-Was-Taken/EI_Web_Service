@@ -26,5 +26,13 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>apache-jena-libs</artifactId>
+            <version>3.10.0</version>
+            <type>pom</type>
+        </dependency>
+
     </dependencies>
 </project>
