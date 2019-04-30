@@ -345,7 +345,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Beverage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the drinks that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the drinks that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Beverage</rdfs:label>
     </owl:Class>
     
 
@@ -354,7 +355,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Cereals">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of cereals used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of cereals used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Cereals</rdfs:label>
     </owl:Class>
     
 
@@ -363,7 +365,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dessert">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the desserts that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the desserts that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Dessert</rdfs:label>
     </owl:Class>
     
 
@@ -373,6 +376,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Dry_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Course"/>
         <rdfs:comment>This class is a sub class of Main course which represents the main course which are in form of dry texture.</rdfs:comment>
+        <rdfs:label>Dry_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -381,7 +385,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of fish used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of fish used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Fish</rdfs:label>
     </owl:Class>
     
 
@@ -390,6 +395,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food">
         <rdfs:comment>Different kinds of dishes separated by its characteristics.</rdfs:comment>
+        <rdfs:label>Food</rdfs:label>
     </owl:Class>
     
 
@@ -398,7 +404,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fresh_Water_Fish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish"/>
-        <rdfs:comment>This class represnts the different kinds of fresh water fish used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of fresh water fish used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Fresh_Water_Fish</rdfs:label>
     </owl:Class>
     
 
@@ -408,6 +415,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fried_Side_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Dish"/>
         <rdfs:comment>This class represents the appetizers those were prepared by means of Roasting.</rdfs:comment>
+        <rdfs:label>Fried_SIde_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -417,6 +425,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Gravy_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Course"/>
         <rdfs:comment>This class is a sub class of Main course which represents the main course which are in form of watery/gravy texture.</rdfs:comment>
+        <rdfs:label>Gravy_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -425,7 +434,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Herbs">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Ingredient"/>
-        <rdfs:comment>This class represents the diffferent kinds of herbs used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the diffferent kinds of herbs used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Herbs</rdfs:label>
     </owl:Class>
     
 
@@ -433,7 +443,8 @@
     <!-- http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient">
-        <rdfs:comment>This class represnts the different kinds of ingredients which plays a vital role in the preparation of Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of ingredients which plays a vital role in the preparation of Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Ingredient</rdfs:label>
     </owl:Class>
     
 
@@ -442,7 +453,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Course">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the main course dishes that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the main course dishes that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Main_Course</rdfs:label>
     </owl:Class>
     
 
@@ -451,7 +463,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient"/>
-        <rdfs:comment>This class represents the main ingredients that are used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the main ingredients that are used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Main_Ingredient</rdfs:label>
     </owl:Class>
     
 
@@ -460,7 +473,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Masala">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of masala used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of masala used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Masala</rdfs:label>
     </owl:Class>
     
 
@@ -469,7 +483,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Meat">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of meat used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of meat used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Meat</rdfs:label>
     </owl:Class>
     
 
@@ -478,7 +493,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Oil">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of oils used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of oils used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Oil</rdfs:label>
     </owl:Class>
     
 
@@ -488,6 +504,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sauteed_Side_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Dish"/>
         <rdfs:comment>This class represents the appetizers those were prepared by means of stir-fried.</rdfs:comment>
+        <rdfs:label>Sauteed_Side_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -496,7 +513,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Sea_Fish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish"/>
-        <rdfs:comment>This class represnts the different kinds of sea fish used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of sea fish used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Sea_Fish</rdfs:label>
     </owl:Class>
     
 
@@ -505,7 +523,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Shell_Fish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Fish"/>
-        <rdfs:comment>This class represnts the different kinds of shell fish used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of shell fish used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Shell_Fish</rdfs:label>
     </owl:Class>
     
 
@@ -514,7 +533,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the appetizers that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the appetizers that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Side_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -523,7 +543,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Ingredient">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient"/>
-        <rdfs:comment>This class represents the supplementary ingredients used in Tamil cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the supplementary ingredients used in Indian cuisine.</rdfs:comment>
+        <rdfs:label>Side_Ingredient</rdfs:label>
     </owl:Class>
     
 
@@ -532,7 +553,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Snacks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the snacks that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the snacks that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Snacks</rdfs:label>
     </owl:Class>
     
 
@@ -541,7 +563,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Soup">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
-        <rdfs:comment>This class represents the soup that are common in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represents the soup that are common in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Soup</rdfs:label>
     </owl:Class>
     
 
@@ -550,7 +573,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of spices used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of spices used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Spices</rdfs:label>
     </owl:Class>
     
 
@@ -560,6 +584,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Steamed_Side_Dish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Dish"/>
         <rdfs:comment>This class represents the appetizers those were prepared by means of Boiling.</rdfs:comment>
+        <rdfs:label>Steamed_Side_Dish</rdfs:label>
     </owl:Class>
     
 
@@ -568,7 +593,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Vegetables">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient"/>
-        <rdfs:comment>This class represnts the different kinds of vegetables used in Tamil Cuisine.</rdfs:comment>
+        <rdfs:comment>This class represnts the different kinds of vegetables used in Indian Cuisine.</rdfs:comment>
+        <rdfs:label>Vegetables</rdfs:label>
     </owl:Class>
     
 
