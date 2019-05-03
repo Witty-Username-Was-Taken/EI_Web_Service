@@ -677,8 +677,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Spices"/>
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
-        <rdfs:label>Balck Cardomom</rdfs:label>
-        <rdfs:label>https://en.wikipedia.org/wiki/Black_cardamom</rdfs:label>
+        <rdfs:label>https://www.shutterstock.com/image-photo/black-cardamom-pods-204295348?src=sN6CnJ-ci_vagmeVNs9cOQ-1-2</rdfs:label>
     </owl:NamedIndividual>
     
 
