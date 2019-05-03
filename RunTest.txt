@@ -1,0 +1,7 @@
+Steps to run Client program
+
+1. Edit build.xml so that the path elements point to your jboss installation
+2. Run ant deploy from terminal
+3. Start fuseki server and make sure ontology is load and dataset is named Food
+4. Start jboss Server
+5. Run Client.java from edu.uga.cs.ei.finalwebservice package
