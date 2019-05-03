@@ -27,6 +27,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient"/>
         <rdfs:comment>This property defines the main ingredient of the associated food.</rdfs:comment>
+        <rdfs:label>consists_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -41,6 +42,7 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Gravy_Dish"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Side_Dish"/>
         <rdfs:comment>This property provides the suggestions between the Main Course and Side Dish Classes.</rdfs:comment>
+        <rdfs:label>goesWith</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -64,6 +66,7 @@
             </owl:Restriction>
         </rdfs:range>
         <rdfs:comment>This property defines that the main course must consists of atleast one individual from Gravy Dish and Dry Dish.</rdfs:comment>
+        <rdfs:label>hasatleast</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -73,6 +76,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#isUsedIn">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Ingredient"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
+        <rdfs:label>isUsedIn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -82,6 +86,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#mustContain">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Course"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Main_Ingredient"/>
+        <rdfs:label>mustContain</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -126,6 +131,7 @@
             </rdfs:Datatype>
         </rdfs:range>
         <rdfs:comment>The property defines the occurence of the food dish.</rdfs:comment>
+        <rdfs:label>hasAtOccasion</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -170,6 +176,7 @@
             </rdfs:Datatype>
         </rdfs:range>
         <rdfs:comment>This property defines the flavor of the Food.</rdfs:comment>
+        <rdfs:label>hasFlavor</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -180,6 +187,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Food"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment>This property lists the total number of ingredients needed for the food preparation. It must be a non negative integer.</rdfs:comment>
+        <rdfs:label>hasNoOfIngredients</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -231,6 +239,7 @@
             </rdfs:Datatype>
         </rdfs:range>
         <rdfs:comment>This property relates the type of technique involved in preparing the Food via one of the enumerated values.</rdfs:comment>
+        <rdfs:label>hasTechnique</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -263,6 +272,7 @@
             </rdfs:Datatype>
         </rdfs:range>
         <rdfs:comment>This property represents the diet type of food.</rdfs:comment>
+        <rdfs:label>isOfDiet</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -301,6 +311,7 @@
             </rdfs:Datatype>
         </rdfs:range>
         <rdfs:comment>This property defines the meal that may be served as particular time of the day.</rdfs:comment>
+        <rdfs:label>isServedAt</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -326,6 +337,7 @@
                 </owl:oneOf>
             </rdfs:Datatype>
         </rdfs:range>
+        <rdfs:label>isUsedAs</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -666,6 +678,7 @@
         <isUsedIn rdf:resource="http://www.semanticweb.org/sofis/ontologies/2019/2/untitled-ontology-4#Biryani"/>
         <isOfDiet>Vegeterian</isOfDiet>
         <rdfs:label>Balck Cardomom</rdfs:label>
+        <rdfs:label>https://en.wikipedia.org/wiki/Black_cardamom</rdfs:label>
     </owl:NamedIndividual>
     
 
