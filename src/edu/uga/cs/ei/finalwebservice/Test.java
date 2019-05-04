@@ -4,6 +4,6 @@ public class Test {
 
     public static void main(String[] args) {
         FoodService f = new FoodService();
-        f.getMainCourses();
+        f.getMainCourses("Dosa");
     }
 }

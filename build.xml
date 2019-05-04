@@ -47,7 +47,7 @@
         </war>
     </target>
 
-    <target name="deploy">
+    <target name="deploy" depends="war">
         <echo>Deploying the war file</echo>
         <copy overwrite="yes" file="${projectname}.war" todir="/usr/local/opt/jboss/standalone/deployments"/>
         <chmod file="/usr/local/opt/jboss/standalone/deployments/${projectname}.war" perm="a+r"/>

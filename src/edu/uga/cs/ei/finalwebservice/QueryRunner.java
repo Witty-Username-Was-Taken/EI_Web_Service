@@ -51,6 +51,7 @@ public class QueryRunner {
                     System.out.println("[" + variable + "]: " + value);
                 }
             }
+            qexec.close();
         }
 
         catch (Exception e) {
