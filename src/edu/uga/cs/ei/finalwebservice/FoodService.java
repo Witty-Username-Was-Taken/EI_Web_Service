@@ -1,21 +1,59 @@
 package edu.uga.cs.ei.finalwebservice;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * URI path List                            =======================================================================================
+ * /food                                    GET -> list of all food resources in ontology
+ * /food/main_course                        GET -> list of all main courses in ontology
+ * /food/main_course/{course}/mustContain   GET -> list of main ingredients a given main course
+ * /food/main_course/{course}/consistsOf    GET -> list of other ingredients in a given main course
+ * /food/main_course/{course}/goesWith      GET -> list of other dishes that go with given main course
+ * /food/main_course/is_of_diet/{diet}      GET -> list of dishes that are of a particular diet (Vegan, Vegetarian, Non-Vegetarian)
+ * /food/side_dish                          GET -> list of side dish resources in ontology
+ * /food/main_course/gravy_dish             GET -> list of gravy dish resources in ontology
+ * /food/main_course/dry_dish               GET -> list of dry dish resources in ontology
+ * /food/side_dish/fried_side_dish          GET -> list of fried side dish resources in ontology
+ * /food/side_dish/steamed_side_dish        GET -> list of steamed side dish resources in ontology
+ * /food/side_dish/sauteed_side_dish        GET -> list of sauteed side dish resources in ontology
+ * /food/soup                               GET -> list of soup resources in ontology
+ * /food/beverage                           GET -> list of beverage resources in ontology
+ * /food/dessert                            GET -> list of dessert resources in ontology
+ * /food/snack                              GET -> list of snack resources in ontology
+ */
+
 @Path("/food")
 public class FoodService {
 
-    private static final String ENDPOINT = "http://localhost:3030/Food/query";
     private static final String RDFS = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>";
     private static final String OWL = "PREFIX owl: <http://www.w3.org/2002/07/owl#>";
+
+    @GET
+    @Produces(MediaType.APPLICATION_XML)
+    public Response getFood() {
+        System.out.println("In the getIngredients method");
+
+        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectLabel " +
+                "WHERE { " +
+                "?class rdfs:label \"Food\"." +
+                "?subclass rdfs:subClassOf* ?class." +
+                "?subject a ?subclass." +
+                "?subject rdfs:label ?subjectLabel" +
+                "}";
+
+        ArrayList<Food> results = QueryRunner.runQuery(query);
+        GenericEntity<List<Food>> entity;
+        entity = new GenericEntity<List<Food>>(results){};
+        Response response = Response.ok(entity).build();
+
+        return response;
+    }
 
     @GET
     @Path("/main_course")
@@ -33,7 +71,32 @@ public class FoodService {
                     "?subject rdfs:label ?subjectlabel." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
+        GenericEntity<List<Food>> entity;
+        entity = new GenericEntity<List<Food>>(results){};
+        Response response = Response.ok(entity).build();
+
+        return response;
+    }
+
+    @GET
+    @Path("/main_course/search")
+    @Produces(MediaType.APPLICATION_XML)
+    public Response searchMainCourses(@QueryParam("dish") String dish) {
+        System.out.println("In the getMainCourses method");
+
+        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectlabel " +
+                "WHERE { " +
+                "?class a owl:Class. " +
+                "?class rdfs:label ?classlabel." +
+                "?class rdfs:subClassOf ?parent." +
+                "?parent rdfs:label \"Main_Course\"." +
+                "?subject a ?class." +
+                "?subject rdfs:label ?subjectlabel." +
+                "filter contains(?subjectlabel, \"" + dish + "\")" +
+                "}";
+
+        ArrayList<Food> results = QueryRunner.runQuery(query);
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
         Response response = Response.ok(entity).build();
@@ -55,7 +118,7 @@ public class FoodService {
                 "?object rdfs:label ?ingredient" +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
         Response response = Response.ok(entity).build();
@@ -77,7 +140,7 @@ public class FoodService {
                 "?object rdfs:label ?ingredient" +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
         Response response = Response.ok(entity).build();
@@ -99,7 +162,29 @@ public class FoodService {
                     "?object rdfs:label ?objectlabel." +
             "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
+        GenericEntity<List<Food>> entity;
+        entity = new GenericEntity<List<Food>>(results){};
+        Response response = Response.ok(entity).build();
+
+        return response;
+    }
+
+    @GET
+    @Path("/main_course/is_of_diet/{diet}")
+    @Produces(MediaType.APPLICATION_XML)
+    public Response courseIsOfDiet(@PathParam("diet") String diet) {
+        System.out.println("In the courseIsOfDiet method");
+
+        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectLabel " +
+                "WHERE { " +
+                "?subject rdfs:label ?subjectLabel" +
+                "?subject ?predicate ?object." +
+                "?predicate rdfs:label \"isOfDiet\"." +
+                "?object rdfs:label \"" + diet + "\"." +
+                "}";
+
+        ArrayList<Food> results = QueryRunner.runQuery(query);
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
         Response response = Response.ok(entity).build();
@@ -126,8 +211,31 @@ public class FoodService {
                 "?subject rdfs:label ?subjectlabel" +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
+        GenericEntity<List<Food>> entity;
+        entity = new GenericEntity<List<Food>>(results){};
+        Response response = Response.ok(entity).build();
+
+        return response;
+    }
+
+    @GET
+    @Path("/side_dish/search")
+    @Produces(MediaType.APPLICATION_XML)
+    public Response searchSideDishes( @QueryParam("dish") String dish) {
+        System.out.println("In the searchSideDishes method");
+
+        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectlabel " +
+                "WHERE { " +
+                "?class rdfs:label \"Side_Dish\"." +
+                "?subclass rdfs:subClassOf* ?class." +
+                "?subject a ?subclass." +
+                "?subject rdfs:label ?subjectlabel." +
+                "filter contains(?subjectlabel, \"" + dish + "\")" +
+                "}";
+
+        ArrayList<Food> results = QueryRunner.runQuery(query);
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
         Response response = Response.ok(entity).build();
@@ -153,7 +261,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -181,7 +289,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -205,7 +313,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -229,7 +337,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -253,7 +361,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -277,7 +385,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -302,7 +410,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -326,7 +434,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -351,7 +459,7 @@ public class FoodService {
                 "?subject a ?class." +
                 "}";
 
-        ArrayList<Food> results = runQuery(query);
+        ArrayList<Food> results = QueryRunner.runQuery(query);
 
         GenericEntity<List<Food>> entity;
         entity = new GenericEntity<List<Food>>(results){};
@@ -360,17 +468,4 @@ public class FoodService {
         return response;
     }
 
-
-    private ArrayList<Food> runQuery(String query) {
-        ArrayList<Food> results = new ArrayList<Food>();
-
-        try {
-            results = QueryRunner.executeQuery(ENDPOINT, query);
-        }
-        catch (Exception e) {
-            System.out.println(e.toString());
-        }
-
-        return results;
-    }
 }

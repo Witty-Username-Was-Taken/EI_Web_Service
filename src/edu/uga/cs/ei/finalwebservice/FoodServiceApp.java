@@ -12,6 +12,7 @@ public class FoodServiceApp extends Application {
 
     public FoodServiceApp() {
         singletons.add( new FoodService() );
+        singletons.add( new IngredientService() );
     }
 
     @Override
