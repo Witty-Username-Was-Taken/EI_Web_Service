@@ -1,0 +1,694 @@
+
+
+
+All Food
+================================================
+
+Retrieving all food resources (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Cauliflower Fry</name>
+    </food>
+    <food>
+        <name>Chicken Fry</name>
+    </food>
+    <food>
+        <name>Fish Fry</name>
+    </food>
+    <food>
+        <name>Plantain Fry</name>
+    </food>
+    <food>
+        <name>Potato Fry</name>
+    </food>
+    <food>
+        <name>Shrimp Fry</name>
+    </food>
+    <food>
+        <name>Sauteed Carrot</name>
+    </food>
+    <food>
+        <name>Sauteed Drum Stick</name>
+    </food>
+    <food>
+        <name>Sauteed Shrimp</name>
+    </food>
+    <food>
+        <name>Steamed Fish</name>
+    </food>
+    <food>
+        <name>Steamed Vegetables</name>
+    </food>
+    <food>
+        <name>Biryani</name>
+    </food>
+    <food>
+        <name>Chapathi</name>
+    </food>
+    <food>
+        <name>Chicken Biryani</name>
+    </food>
+    <food>
+        <name>Pulao</name>
+    </food>
+    <food>
+        <name>Plain Rice</name>
+    </food>
+    <food>
+        <name>Dosa</name>
+    </food>
+    <food>
+        <name>Pongal</name>
+    </food>
+    <food>
+        <name>Fish Biryani</name>
+    </food>
+    <food>
+        <name>Idli</name>
+    </food>
+    <food>
+        <name>Mutton Biryani</name>
+    </food>
+    <food>
+        <name>Parotta</name>
+    </food>
+    <food>
+        <name>Vegetable Korma</name>
+    </food>
+    <food>
+        <name>Sambar</name>
+    </food>
+    <food>
+        <name>Fish Gravy</name>
+    </food>
+    <food>
+        <name>Chicken Gravy</name>
+    </food>
+    <food>
+        <name>Rasam</name>
+    </food>
+    <food>
+        <name>Crab Masala</name>
+    </food>
+    <food>
+        <name>Mutton Gravy</name>
+    </food>
+    <food>
+        <name>Shrimp Gravy</name>
+    </food>
+    <food>
+        <name>Buttermilk</name>
+    </food>
+    <food>
+        <name>Tea</name>
+    </food>
+    <food>
+        <name>Filter Coffee</name>
+    </food>
+    <food>
+        <name>Cake</name>
+    </food>
+    <food>
+        <name>Halwa</name>
+    </food>
+    <food>
+        <name>Gulab Jamun</name>
+    </food>
+    <food>
+        <name>Ice Cream</name>
+    </food>
+    <food>
+        <name>Cashew Momo</name>
+    </food>
+    <food>
+        <name>Rice Pappad</name>
+    </food>
+    <food>
+        <name>Vadai</name>
+    </food>
+    <food>
+        <name>Chicken Soup</name>
+    </food>
+    <food>
+        <name>Goat Leg Soup</name>
+    </food>
+    <food>
+        <name>Vegetable Soup</name>
+    </food>
+</collection>
+
+================================================
+
+
+
+MAIN COURSES
+================================================
+
+Retrieving all main_course (XML representation)
+Making response
+getMainDishes response made
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Biryani</name>
+    </food>
+    <food>
+        <name>Chapathi</name>
+    </food>
+    <food>
+        <name>Chicken Biryani</name>
+    </food>
+    <food>
+        <name>Pulao</name>
+    </food>
+    <food>
+        <name>Plain Rice</name>
+    </food>
+    <food>
+        <name>Dosa</name>
+    </food>
+    <food>
+        <name>Pongal</name>
+    </food>
+    <food>
+        <name>Fish Biryani</name>
+    </food>
+    <food>
+        <name>Idli</name>
+    </food>
+    <food>
+        <name>Mutton Biryani</name>
+    </food>
+    <food>
+        <name>Parotta</name>
+    </food>
+    <food>
+        <name>Vegetable Korma</name>
+    </food>
+    <food>
+        <name>Sambar</name>
+    </food>
+    <food>
+        <name>Fish Gravy</name>
+    </food>
+    <food>
+        <name>Chicken Gravy</name>
+    </food>
+    <food>
+        <name>Rasam</name>
+    </food>
+    <food>
+        <name>Crab Masala</name>
+    </food>
+    <food>
+        <name>Mutton Gravy</name>
+    </food>
+    <food>
+        <name>Shrimp Gravy</name>
+    </food>
+</collection>
+
+getMainDishes response closed
+================================================
+
+Retrieving all gravy dishes (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Vegetable Korma</name>
+    </food>
+    <food>
+        <name>Sambar</name>
+    </food>
+    <food>
+        <name>Fish Gravy</name>
+    </food>
+    <food>
+        <name>Chicken Gravy</name>
+    </food>
+    <food>
+        <name>Rasam</name>
+    </food>
+    <food>
+        <name>Crab Masala</name>
+    </food>
+    <food>
+        <name>Mutton Gravy</name>
+    </food>
+    <food>
+        <name>Shrimp Gravy</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all dry dishes (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Biryani</name>
+    </food>
+    <food>
+        <name>Chapathi</name>
+    </food>
+    <food>
+        <name>Chicken Biryani</name>
+    </food>
+    <food>
+        <name>Pulao</name>
+    </food>
+    <food>
+        <name>Plain Rice</name>
+    </food>
+    <food>
+        <name>Dosa</name>
+    </food>
+    <food>
+        <name>Pongal</name>
+    </food>
+    <food>
+        <name>Fish Biryani</name>
+    </food>
+    <food>
+        <name>Idli</name>
+    </food>
+    <food>
+        <name>Mutton Biryani</name>
+    </food>
+    <food>
+        <name>Parotta</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving main course query (XML representation)
+Making response
+queryMainDishes response made
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Rasam</name>
+    </food>
+</collection>
+
+queryMainDishes response closed
+================================================
+
+Retrieving what ingredients Biryani must contain (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection/>
+
+================================================
+
+Retrieving what ingredients Buttermilk consists of (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection/>
+
+================================================
+
+Retrieving what dishes Cashew Momo goes with best (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Tea</name>
+    </food>
+    <food>
+        <name>Filter Coffee</name>
+    </food>
+</collection>
+
+================================================
+================================================
+
+Retrieving what dishes are of diet: Vegeterian (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection/>
+
+================================================
+
+Retrieving all soups (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Chicken Soup</name>
+    </food>
+    <food>
+        <name>Goat Leg Soup</name>
+    </food>
+    <food>
+        <name>Vegetable Soup</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all beverages (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Buttermilk</name>
+    </food>
+    <food>
+        <name>Tea</name>
+    </food>
+    <food>
+        <name>Filter Coffee</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all desserts (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Cake</name>
+    </food>
+    <food>
+        <name>Halwa</name>
+    </food>
+    <food>
+        <name>Gulab Jamun</name>
+    </food>
+    <food>
+        <name>Ice Cream</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all snacks (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection/>
+
+
+
+
+Side Dishes
+================================================
+
+Retrieving all side_dish (XML representation)
+getSideDisehes response made
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Cauliflower Fry</name>
+    </food>
+    <food>
+        <name>Chicken Fry</name>
+    </food>
+    <food>
+        <name>Fish Fry</name>
+    </food>
+    <food>
+        <name>Plantain Fry</name>
+    </food>
+    <food>
+        <name>Potato Fry</name>
+    </food>
+    <food>
+        <name>Shrimp Fry</name>
+    </food>
+    <food>
+        <name>Sauteed Carrot</name>
+    </food>
+    <food>
+        <name>Sauteed Drum Stick</name>
+    </food>
+    <food>
+        <name>Sauteed Shrimp</name>
+    </food>
+    <food>
+        <name>Steamed Fish</name>
+    </food>
+    <food>
+        <name>Steamed Vegetables</name>
+    </food>
+</collection>
+
+getSideDisehes response closed
+================================================
+
+Retrieving all side dishes that contain the search term: Fish (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Fish Fry</name>
+    </food>
+    <food>
+        <name>Steamed Fish</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all fried side dishes (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Cauliflower Fry</name>
+    </food>
+    <food>
+        <name>Chicken Fry</name>
+    </food>
+    <food>
+        <name>Fish Fry</name>
+    </food>
+    <food>
+        <name>Plantain Fry</name>
+    </food>
+    <food>
+        <name>Potato Fry</name>
+    </food>
+    <food>
+        <name>Shrimp Fry</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all steamed side dishes (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Steamed Fish</name>
+    </food>
+    <food>
+        <name>Steamed Vegetables</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving all sauteed side dishes (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Sauteed Carrot</name>
+    </food>
+    <food>
+        <name>Sauteed Drum Stick</name>
+    </food>
+    <food>
+        <name>Sauteed Shrimp</name>
+    </food>
+</collection>
+
+================================================
+
+
+
+Ingredients
+================================================
+
+Retrieving all ingredients (XML representation)
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Basmati Rice</name>
+    </food>
+    <food>
+        <name>Rice</name>
+    </food>
+    <food>
+        <name>Wheat</name>
+    </food>
+    <food>
+        <name>Idli Rice</name>
+    </food>
+    <food>
+        <name>Urad Dal</name>
+    </food>
+    <food>
+        <name>Moong Dal</name>
+    </food>
+    <food>
+        <name>Ponni Rice</name>
+    </food>
+    <food>
+        <name>Toor Dal</name>
+    </food>
+    <food>
+        <name>Catfish</name>
+    </food>
+    <food>
+        <name>Tilapia</name>
+    </food>
+    <food>
+        <name>Golden Pomfret</name>
+    </food>
+    <food>
+        <name>King Fish</name>
+    </food>
+    <food>
+        <name>Crab</name>
+    </food>
+    <food>
+        <name>Lobster</name>
+    </food>
+    <food>
+        <name>Shrimp</name>
+    </food>
+    <food>
+        <name>Beef</name>
+    </food>
+    <food>
+        <name>Chicken</name>
+    </food>
+    <food>
+        <name>Goat</name>
+    </food>
+    <food>
+        <name>Lamb</name>
+    </food>
+    <food>
+        <name>Beans</name>
+    </food>
+    <food>
+        <name>Brinjal</name>
+    </food>
+    <food>
+        <name>Green Chilli</name>
+    </food>
+    <food>
+        <name>Cabbage</name>
+    </food>
+    <food>
+        <name>Capsicum</name>
+    </food>
+    <food>
+        <name>Carrot</name>
+    </food>
+    <food>
+        <name>Cauliflower</name>
+    </food>
+    <food>
+        <name>Cluster Beans</name>
+    </food>
+    <food>
+        <name>Coconut</name>
+    </food>
+    <food>
+        <name>Drum Stick</name>
+    </food>
+    <food>
+        <name>Elephant Yam</name>
+    </food>
+    <food>
+        <name>Mango</name>
+    </food>
+    <food>
+        <name>Onion</name>
+    </food>
+    <food>
+        <name>Pearl Onion</name>
+    </food>
+    <food>
+        <name>Plantain</name>
+    </food>
+    <food>
+        <name>Potato</name>
+    </food>
+    <food>
+        <name>Tomato</name>
+    </food>
+    <food>
+        <name>Coriander Leaves</name>
+    </food>
+    <food>
+        <name>Curry Leaves</name>
+    </food>
+    <food>
+        <name>Mint Leaves</name>
+    </food>
+    <food>
+        <name>Coriander Masala</name>
+    </food>
+    <food>
+        <name>Curry Masala</name>
+    </food>
+    <food>
+        <name>Garam Masala</name>
+    </food>
+    <food>
+        <name>Turmeric Powder</name>
+    </food>
+    <food>
+        <name>Ghee</name>
+    </food>
+    <food>
+        <name>Gingely Oil</name>
+    </food>
+    <food>
+        <name>Palm Oil</name>
+    </food>
+    <food>
+        <name>Rice Bran Oil</name>
+    </food>
+    <food>
+        <name>Sunflower Oil</name>
+    </food>
+    <food>
+        <name>https://www.shutterstock.com/image-photo/black-cardamom-pods-204295348?src=sN6CnJ-ci_vagmeVNs9cOQ-1-2</name>
+    </food>
+    <food>
+        <name>Jeera</name>
+    </food>
+    <food>
+        <name>Cardomom</name>
+    </food>
+    <food>
+        <name>Cinnamon Sticks</name>
+    </food>
+    <food>
+        <name>Dried Bay Leaf</name>
+    </food>
+    <food>
+        <name>Dried Grape</name>
+    </food>
+    <food>
+        <name>Dried Red Chilli</name>
+    </food>
+    <food>
+        <name>Fennel</name>
+    </food>
+    <food>
+        <name>Javitri</name>
+    </food>
+    <food>
+        <name>Mustard</name>
+    </food>
+    <food>
+        <name>Pepper</name>
+    </food>
+    <food>
+        <name>Star Anise</name>
+    </food>
+</collection>
+
+================================================
+
+Retrieving everything ingredient Carrot is used in (XML representation)
+java.lang.RuntimeException: GET Request failed: HTTP code: 404
