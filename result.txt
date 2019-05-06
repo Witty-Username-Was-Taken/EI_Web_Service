@@ -212,6 +212,11 @@ Response status: 200
 getMainDishes response closed
 ================================================
 
+
+
+GRAVY DISHES
+================================================
+
 Retrieving all gravy dishes (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -241,6 +246,11 @@ Response status: 200
     </food>
 </collection>
 
+================================================
+
+
+
+DRY DISHES
 ================================================
 
 Retrieving all dry dishes (XML representation)
@@ -283,6 +293,11 @@ Response status: 200
 
 ================================================
 
+
+
+QUERY MAIN DISHES
+================================================
+
 Retrieving main course query (XML representation)
 Making response
 queryMainDishes response made
@@ -296,16 +311,45 @@ Response status: 200
 queryMainDishes response closed
 ================================================
 
+
+
+DISH MUST CONTAIN
+================================================
+
 Retrieving what ingredients Biryani must contain (XML representation)
 Response status: 200
-<?xml version="1.0" encoding="UTF-16"?><collection/>
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Basmati Rice</name>
+    </food>
+</collection>
 
+================================================
+
+
+
+DISH CONSISTS OF
 ================================================
 
 Retrieving what ingredients Buttermilk consists of (XML representation)
 Response status: 200
-<?xml version="1.0" encoding="UTF-16"?><collection/>
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Coriander Leaves</name>
+    </food>
+    <food>
+        <name>Green Chilli</name>
+    </food>
+    <food>
+        <name>Jeera</name>
+    </food>
+</collection>
 
+================================================
+
+
+
+DISH GOES WITH
 ================================================
 
 Retrieving what dishes Cashew Momo goes with best (XML representation)
@@ -320,12 +364,229 @@ Response status: 200
 </collection>
 
 ================================================
+
+
+
+IS OF DIET
 ================================================
 
 Retrieving what dishes are of diet: Vegeterian (XML representation)
 Response status: 200
-<?xml version="1.0" encoding="UTF-16"?><collection/>
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Basmati Rice</name>
+    </food>
+    <food>
+        <name>Vegetable Korma</name>
+    </food>
+    <food>
+        <name>Beans</name>
+    </food>
+    <food>
+        <name>https://www.shutterstock.com/image-photo/black-cardamom-pods-204295348?src=sN6CnJ-ci_vagmeVNs9cOQ-1-2</name>
+    </food>
+    <food>
+        <name>Brinjal</name>
+    </food>
+    <food>
+        <name>Sambar</name>
+    </food>
+    <food>
+        <name>Buttermilk</name>
+    </food>
+    <food>
+        <name>Coriander Leaves</name>
+    </food>
+    <food>
+        <name>Green Chilli</name>
+    </food>
+    <food>
+        <name>Jeera</name>
+    </food>
+    <food>
+        <name>Cabbage</name>
+    </food>
+    <food>
+        <name>Capsicum</name>
+    </food>
+    <food>
+        <name>Cardomom</name>
+    </food>
+    <food>
+        <name>Tea</name>
+    </food>
+    <food>
+        <name>Carrot</name>
+    </food>
+    <food>
+        <name>Halwa</name>
+    </food>
+    <food>
+        <name>Cashew Momo</name>
+    </food>
+    <food>
+        <name>Filter Coffee</name>
+    </food>
+    <food>
+        <name>Rice</name>
+    </food>
+    <food>
+        <name>Cauliflower</name>
+    </food>
+    <food>
+        <name>Cauliflower Fry</name>
+    </food>
+    <food>
+        <name>Chapathi</name>
+    </food>
+    <food>
+        <name>Wheat</name>
+    </food>
+    <food>
+        <name>Pulao</name>
+    </food>
+    <food>
+        <name>Plain Rice</name>
+    </food>
+    <food>
+        <name>Cinnamon Sticks</name>
+    </food>
+    <food>
+        <name>Cluster Beans</name>
+    </food>
+    <food>
+        <name>Rasam</name>
+    </food>
+    <food>
+        <name>Coconut</name>
+    </food>
+    <food>
+        <name>Coriander Masala</name>
+    </food>
+    <food>
+        <name>Curry Leaves</name>
+    </food>
+    <food>
+        <name>Curry Masala</name>
+    </food>
+    <food>
+        <name>Dosa</name>
+    </food>
+    <food>
+        <name>Idli Rice</name>
+    </food>
+    <food>
+        <name>Urad Dal</name>
+    </food>
+    <food>
+        <name>Dried Bay Leaf</name>
+    </food>
+    <food>
+        <name>Dried Grape</name>
+    </food>
+    <food>
+        <name>Dried Red Chilli</name>
+    </food>
+    <food>
+        <name>Drum Stick</name>
+    </food>
+    <food>
+        <name>Elephant Yam</name>
+    </food>
+    <food>
+        <name>Pongal</name>
+    </food>
+    <food>
+        <name>Idli</name>
+    </food>
+    <food>
+        <name>Garam Masala</name>
+    </food>
+    <food>
+        <name>Ghee</name>
+    </food>
+    <food>
+        <name>Gingely Oil</name>
+    </food>
+    <food>
+        <name>Javitri</name>
+    </food>
+    <food>
+        <name>Mango</name>
+    </food>
+    <food>
+        <name>Mint Leaves</name>
+    </food>
+    <food>
+        <name>Moong Dal</name>
+    </food>
+    <food>
+        <name>Mustard</name>
+    </food>
+    <food>
+        <name>Onion</name>
+    </food>
+    <food>
+        <name>Palm Oil</name>
+    </food>
+    <food>
+        <name>Pearl Onion</name>
+    </food>
+    <food>
+        <name>Pepper</name>
+    </food>
+    <food>
+        <name>Plantain</name>
+    </food>
+    <food>
+        <name>Plantain Fry</name>
+    </food>
+    <food>
+        <name>Ponni Rice</name>
+    </food>
+    <food>
+        <name>Potato</name>
+    </food>
+    <food>
+        <name>Potato Fry</name>
+    </food>
+    <food>
+        <name>Rice Bran Oil</name>
+    </food>
+    <food>
+        <name>Rice Pappad</name>
+    </food>
+    <food>
+        <name>Toor Dal</name>
+    </food>
+    <food>
+        <name>Star Anise</name>
+    </food>
+    <food>
+        <name>Steamed Vegetables</name>
+    </food>
+    <food>
+        <name>Sunflower Oil</name>
+    </food>
+    <food>
+        <name>Tomato</name>
+    </food>
+    <food>
+        <name>Turmeric Powder</name>
+    </food>
+    <food>
+        <name>Vadai</name>
+    </food>
+    <food>
+        <name>Vegetable Soup</name>
+    </food>
+</collection>
 
+================================================
+
+
+
+SOUPS
 ================================================
 
 Retrieving all soups (XML representation)
@@ -344,6 +605,11 @@ Response status: 200
 
 ================================================
 
+
+
+BEVERAGES
+================================================
+
 Retrieving all beverages (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -358,6 +624,11 @@ Response status: 200
     </food>
 </collection>
 
+================================================
+
+
+
+DESSERTS
 ================================================
 
 Retrieving all desserts (XML representation)
@@ -379,6 +650,11 @@ Response status: 200
 
 ================================================
 
+
+
+SNACKS
+================================================
+
 Retrieving all snacks (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -393,10 +669,11 @@ Response status: 200
     </food>
 </collection>
 
+================================================
 
 
 
-Side Dishes
+SIDE DISHES
 ================================================
 
 Retrieving all side_dish (XML representation)
@@ -441,6 +718,11 @@ Response status: 200
 getSideDisehes response closed
 ================================================
 
+
+
+QUERY SIDE DISHES
+================================================
+
 Retrieving all side dishes that contain the search term: Fish (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -452,6 +734,11 @@ Response status: 200
     </food>
 </collection>
 
+================================================
+
+
+
+FRIED SIDE DISHES
 ================================================
 
 Retrieving all fried side dishes (XML representation)
@@ -479,6 +766,11 @@ Response status: 200
 
 ================================================
 
+
+
+STEAMED SIDE DISHES
+================================================
+
 Retrieving all steamed side dishes (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -490,6 +782,11 @@ Response status: 200
     </food>
 </collection>
 
+================================================
+
+
+
+SAUTEED SIDE DISHES
 ================================================
 
 Retrieving all sauteed side dishes (XML representation)
@@ -510,7 +807,7 @@ Response status: 200
 
 
 
-Ingredients
+INGREDIENTS
 ================================================
 
 Retrieving all ingredients (XML representation)
@@ -700,6 +997,11 @@ Response status: 200
 
 ================================================
 
+
+
+INGREDIENT IS USED IN
+================================================
+
 Retrieving everything ingredient Carrot is used in (XML representation)
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
@@ -711,3 +1013,4 @@ Response status: 200
     </food>
 </collection>
 
+================================================

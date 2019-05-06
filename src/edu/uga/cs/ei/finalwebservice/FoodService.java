@@ -114,7 +114,7 @@ public class FoodService {
                 " WHERE {" +
                 "?subject ?predicate ?object." +
                 "?predicate rdfs:label \"mustContain\"." +
-                "?subject rdfs:label \"" + course + "\")." +
+                "?subject rdfs:label \"" + course + "\"." +
                 "?object rdfs:label ?ingredient" +
                 "}";
 
@@ -136,7 +136,7 @@ public class FoodService {
                 " WHERE {" +
                 "?subject ?predicate ?object." +
                 "?predicate rdfs:label \"consists_of\"." +
-                "?subject rdfs:label \"" + course + "\")." +
+                "?subject rdfs:label \"" + course + "\"." +
                 "?object rdfs:label ?ingredient" +
                 "}";
 
@@ -178,10 +178,9 @@ public class FoodService {
 
         String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectLabel " +
                 "WHERE { " +
-                "?subject rdfs:label ?subjectLabel" +
-                "?subject ?predicate ?object." +
+                "?subject ?predicate \"" + diet + "\"." +
                 "?predicate rdfs:label \"isOfDiet\"." +
-                "?object rdfs:label \"" + diet + "\"." +
+                "?subject rdfs:label ?subjectLabel" +
                 "}";
 
         ArrayList<Food> results = QueryRunner.runQuery(query);
