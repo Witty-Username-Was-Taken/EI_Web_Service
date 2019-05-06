@@ -146,8 +146,6 @@ MAIN COURSES
 ================================================
 
 Retrieving all main_course (XML representation)
-Making response
-getMainDishes response made
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
     <food>
@@ -209,7 +207,6 @@ Response status: 200
     </food>
 </collection>
 
-getMainDishes response closed
 ================================================
 
 
@@ -299,8 +296,6 @@ QUERY MAIN DISHES
 ================================================
 
 Retrieving main course query (XML representation)
-Making response
-queryMainDishes response made
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
     <food>
@@ -308,7 +303,6 @@ Response status: 200
     </food>
 </collection>
 
-queryMainDishes response closed
 ================================================
 
 
@@ -677,7 +671,6 @@ SIDE DISHES
 ================================================
 
 Retrieving all side_dish (XML representation)
-getSideDisehes response made
 Response status: 200
 <?xml version="1.0" encoding="UTF-16"?><collection>
     <food>
@@ -715,7 +708,6 @@ Response status: 200
     </food>
 </collection>
 
-getSideDisehes response closed
 ================================================
 
 

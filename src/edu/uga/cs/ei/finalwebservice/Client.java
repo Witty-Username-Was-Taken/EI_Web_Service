@@ -160,13 +160,10 @@ public class Client {
             output.println("Retrieving all main_course (XML representation)");
 
             // perform a GET request, asking for an XML representation
-            output.println("Making response");
             response = target.request(MediaType.APPLICATION_XML).get();
-            output.println("getMainDishes response made");
 
 
             if (response.getStatus() != 200) {
-                output.println("Status is not 200");
                 throw new RuntimeException("GET Request failed: HTTP code: " + response.getStatus());
             } else {
                 output.println("Response status: " + response.getStatus());
@@ -175,7 +172,6 @@ public class Client {
                 output.println(prettyPrintXML(p));
             }
             response.close();
-            output.println("getMainDishes response closed");
 
         }
         catch (Exception e) {
@@ -250,9 +246,7 @@ public class Client {
             output.println("Retrieving main course query (XML representation)");
 
             // perform a GET request, asking for an XML representation
-            output.println("Making response");
             response = target.request(MediaType.APPLICATION_XML).get();
-            output.println("queryMainDishes response made");
 
 
             if (response.getStatus() != 200) {
@@ -265,7 +259,6 @@ public class Client {
                 output.println(prettyPrintXML(p));
             }
             response.close();
-            output.println("queryMainDishes response closed");
         }
         catch (Exception e) {
             output.println(e.toString());
@@ -392,7 +385,6 @@ public class Client {
             output.println("\nRetrieving all side_dish (XML representation)");
 
             response = target.request(MediaType.APPLICATION_XML).get();
-            output.println("getSideDisehes response made");
 
 
             if (response.getStatus() != 200) {
@@ -404,7 +396,6 @@ public class Client {
                 output.println(prettyPrintXML(p));
             }
             response.close();
-            output.println("getSideDisehes response closed");
         }
         catch (Exception e) {
             output.println(e.toString());
