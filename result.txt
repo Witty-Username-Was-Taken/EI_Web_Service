@@ -381,7 +381,17 @@ Response status: 200
 
 Retrieving all snacks (XML representation)
 Response status: 200
-<?xml version="1.0" encoding="UTF-16"?><collection/>
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Cashew Momo</name>
+    </food>
+    <food>
+        <name>Rice Pappad</name>
+    </food>
+    <food>
+        <name>Vadai</name>
+    </food>
+</collection>
 
 
 
@@ -691,4 +701,13 @@ Response status: 200
 ================================================
 
 Retrieving everything ingredient Carrot is used in (XML representation)
-java.lang.RuntimeException: GET Request failed: HTTP code: 404
+Response status: 200
+<?xml version="1.0" encoding="UTF-16"?><collection>
+    <food>
+        <name>Sambar</name>
+    </food>
+    <food>
+        <name>Halwa</name>
+    </food>
+</collection>
+

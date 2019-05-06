@@ -626,7 +626,7 @@ public class Client {
             ResteasyClient client = new ResteasyClientBuilder().build();
             Response response;
 
-            ResteasyWebTarget target = client.target("http://localhost:8080/ei_web_service/api/food/" + s +"/is_used_in");
+            ResteasyWebTarget target = client.target("http://localhost:8080/ei_web_service/api/ingredient/" + s +"/is_used_in");
 
             output.println("\nRetrieving everything ingredient " + s + " is used in (XML representation)");
 

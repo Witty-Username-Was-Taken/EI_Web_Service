@@ -454,7 +454,7 @@ public class FoodService {
         String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectlabel " +
                 "WHERE { " +
                 "?class a owl:Class. " +
-                "?class rdfs:label \"Snack\"." +
+                "?class rdfs:label \"Snacks\"." +
                 "?subject rdfs:label ?subjectlabel." +
                 "?subject a ?class." +
                 "}";

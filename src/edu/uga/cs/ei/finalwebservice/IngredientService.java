@@ -43,12 +43,12 @@ public class IngredientService {
     public Response getFoodUsedIn(@PathParam("ingredient") String ingredient) {
         System.out.println("In the getFoodUsedIn method");
 
-        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?subjectLabel " +
+        String query = RDFS +  " " + OWL + " SELECT DISTINCT ?objectLabel " +
                 "WHERE { " +
   			        "?subject ?predicate ?object." +
                     "?predicate rdfs:label \"isUsedIn\"." +
-                    "?subject rdfs:label ?subjectLabel." +
-                    "?object rdfs:label \"" + ingredient + "\"." +
+                    "?subject rdfs:label \"" + ingredient + "\"." +
+                    "?object rdfs:label ?objectLabel." +
                 "}";
 
         ArrayList<Food> results = QueryRunner.runQuery(query);
